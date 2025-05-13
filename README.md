@@ -8,7 +8,7 @@ This project is a full-stack web application designed to help users check wildfi
 
 ---
 
-## ✨ Features
+##  Features
 
 * **Interactive Wildfire Map**: Displays historical wildfire perimeters across California.
 * **Real Estate Listings**: Fetches listings near Los Angeles (via RapidAPI).
@@ -43,7 +43,7 @@ This project is a full-stack web application designed to help users check wildfi
 * GitHub account
 
 
-## 🌐 Live Preview
+##  Live Preview
 
 
 ```
@@ -53,7 +53,7 @@ Backend API: https://your-backend.onrender.com/api
 
 ---
 
-## 🎓 Credits
+##  Credits
 
 * Developed by Filiberto Oceguera-Huizar, Yair Diaz, and Juan Martinez Vasquez
 * Data from CalFire (ArcGIS) & RapidAPI

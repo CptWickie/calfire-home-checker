@@ -1,0 +1,23 @@
+# === GLOBAL ===
+node_modules/
+.env
+.env.*    
+.DS_Store
+*.log
+
+# === FRONTEND (React) ===
+/front/build
+/front/node_modules
+/front/.env
+
+# === BACKEND (Node.js) ===
+/back/node_modules
+/back/.env
+
+# === TEST COVERAGE ===
+coverage/
+
+# === SYSTEM FILES ===
+Thumbs.db
+*.swp
+*.swo

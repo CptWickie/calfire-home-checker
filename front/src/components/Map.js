@@ -41,17 +41,14 @@ export default function Map({ shelters }) {
       }
     };
 
-    fetch(url, options)
+      fetch("http://localhost:5003/api/listings")
       .then(res => res.json())
       .then(data => {
-        console.log("RapidAPI Real Estate result:", data);
-        if (data?.listings) {
-          setListings(data.listings);
-        } else if (data?.data?.listings) {
-          setListings(data.data.listings);
-        }
+        console.log("Listings from secure backend:", data);
+        setListings(data.listings || []);
       })
-      .catch(err => console.error("Real Estate fetch error:", err));
+      .catch(err => console.error("Backend fetch error:", err));
+
   }, []);
 
   // Add map legend after map is ready

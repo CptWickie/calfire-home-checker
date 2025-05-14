@@ -40,7 +40,7 @@ const Main = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:5003/api/shelters");
+      const res = await fetch("https://bewildfiresafe.onrender.com");
 
       const query = searchQuery.trim().toLowerCase();
       const data = await res.json();

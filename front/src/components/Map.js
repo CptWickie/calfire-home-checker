@@ -41,7 +41,7 @@ export default function Map({ shelters }) {
       }
     };
 
-      fetch("https://bewildfiresafe.onrender.com")
+      fetch("https://bewildfiresafe.onrender.com/api/listings")
       .then(res => res.json())
       .then(data => {
         console.log("Listings from secure backend:", data);

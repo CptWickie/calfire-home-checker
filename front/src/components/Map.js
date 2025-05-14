@@ -35,8 +35,8 @@ export default function Map({ shelters }) {
     const options = {
       method: "GET",
       headers: {
-       "x-rapidapi-key": process.env.REACT_APP_RAPIDAPI_KEY,
-       "x-rapidapi-host": process.env.REACT_APP_RAPIDAPI_HOST
+       "x-rapidapi-key": process.env.RAPIDAPI_KEY,
+       "x-rapidapi-host": process.env.RAPIDAPI_HOST
         
       }
     };
